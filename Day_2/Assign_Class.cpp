@@ -1,8 +1,10 @@
 #include<iostream>
 using namespace std;
 
-int main()
-{
+class marksheet{
+
+    public : void getmarksheet(){
+        
    string Name,Div;
    int Std,RollNo,Eng,Hin,Maths,SS,Sci;
   
@@ -34,7 +36,7 @@ int main()
     Avg = Total/5;
 
     // Percentage Scored
-    Percentage=(Total*100)/100;
+    Percentage=(Total*100)/500;
 
     // Output...
 
@@ -46,9 +48,13 @@ int main()
     cout<<"Average Marks Obtained:- "<<Avg<<endl;
     cout<<"Percentage:- "<<Percentage<<endl;
 
+    }
+
+};
 
 
-
-
+int main(){
+    marksheet mark;
+    mark.getmarksheet();
     return 0;
 }
