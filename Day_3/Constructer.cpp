@@ -7,10 +7,6 @@ class kp{
         cout<<"Patel's"<<endl;
     }
 
-    public: kp(char web){
-        cout<<"Patel.com"<<web<<endl;
-    }
-
      public: kp(int num){
         cout<<"num : "<<num<<endl;
     }
@@ -21,7 +17,6 @@ class kp{
 int main(){
 
     kp obj;
-    kp obj1;
     kp obj2(200);
 
     return 0;
