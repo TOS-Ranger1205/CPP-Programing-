@@ -35,6 +35,7 @@ int main(){
     books obj;
     obj.setname("c++ programming");
     obj.setprice(1200);
+    cout<<obj.getname()<<endl;
     cout<<"books price : "<<obj.getprice()<<endl;
     cout<<"books price : "<<obj.getprice()<<endl;
 
